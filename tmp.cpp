@@ -5,8 +5,16 @@ using namespace std;
 
 template<typename T> void drop(const T &x){cout<<x<<endl;exit(0);}
 
+void solve() {
+
+  return;
+}
+
 signed main() {
-  vector<int> a={1,2,3,4,5,100};
-  cout << a.end() << endl;
+  ll T;
+  cin >> T;
+  for(ll i=0; i<T; ++i) {
+    solve();
+  }
   return 0;
 }
