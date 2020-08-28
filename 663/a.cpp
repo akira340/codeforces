@@ -6,6 +6,12 @@ using namespace std;
 template<typename T> void drop(const T &x){cout<<x<<endl;exit(0);}
 
 void solve() {
+  int n; cin >> n;
+
+  for(int i=1; i<=n; ++i) {
+    cout << i << " ";
+  }
+  cout << '\n';
 
   return;
 }
@@ -14,7 +20,7 @@ signed main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
   int T=1;
-  //cin >> T;
+  cin >> T;
   while(T--) solve();
 
   return 0;

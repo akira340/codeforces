@@ -3,11 +3,11 @@ using namespace std;
 
 #define ll long long
 
-template<typename T> void drop(const T &x){cout<<x<<endl;exit(0);}
+template<typename T> void drop(const T &x){cout<<x<<'\n';exit(0);}
 
 void solve() {
+  cout << 1e-9*1e6;
 
-  return;
 }
 
 signed main() {

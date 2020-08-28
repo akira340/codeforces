@@ -6,6 +6,8 @@ using namespace std;
 template<typename T> void drop(const T &x){cout<<x<<endl;exit(0);}
 
 void solve() {
+  int a=2;
+  cout << (128&33) << endl;
 
   return;
 }
